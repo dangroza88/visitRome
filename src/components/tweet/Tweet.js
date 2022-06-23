@@ -5,7 +5,7 @@ import './Tweet.css'
 function Tweet({name, message}){
 
     return(
-        <div className="tweet">
+        <div className="tweet blur">
             <h3>{name}</h3>
             <p>{message}</p>
             <Counter/>

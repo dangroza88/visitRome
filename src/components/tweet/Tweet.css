@@ -2,6 +2,7 @@
   height: 150px;
   width: 400px;
   background-color: #8d9087;
+  /* filter: blur(10px); */
   opacity: 0.9;
   border-radius: 30px;
   display: flex;
@@ -10,4 +11,5 @@
   align-items: center;
   margin: 5px;
 }
+
 

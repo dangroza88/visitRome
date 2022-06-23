@@ -1,0 +1,26 @@
+.header {
+  width: 100%;
+  position: fixed;
+  background: #293e41;
+  color: #cfcdd2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  flex-wrap: wrap;
+  z-index: 99;
+}
+
+
+.header a {
+  text-decoration: none;
+  color: white;
+  /* border: 1px solid white;
+    border-radius: 25px; */
+  padding: 10px;
+
+}
+
+h1 span {
+  color: #edebee;
+}

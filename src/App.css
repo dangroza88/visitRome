@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Montserrat&family=Poppins:wght@300&family=Roboto&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    background-image: url(C:\Users\PC\Desktop\react-v0\my-first-app\src\components\photos\heropage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 70%;
+
+
+}
+
+.container2 {
+    flex-basis: 30%;
+    /* border: 5px solid black; */
+}

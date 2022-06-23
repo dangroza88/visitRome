@@ -1,0 +1,31 @@
+/* .img-wrapper img {
+    height: 300px;
+    height: 300px
+} */
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow: auto;
+    max-height: 100vh;
+    /* display: none; */
+    /* filter: blur(8px); */
+    /* -webkit-filter: blur(8px) */
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.img-wrapper img {
+    height: 200px;
+    width: 300px;
+    border-radius: 25px;
+
+}
+
+.img-wrapper {
+    width: 100%;
+    color: brown
+}
